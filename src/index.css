@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #F1EEE9;
+}
+
+.nav-transition{
+  transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.filter-white{
+  filter: invert(98%) sepia(33%) saturate(880%) hue-rotate(293deg) brightness(111%) contrast(88%);
+}
+
+.nav-item{
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  height: 60px;
+  width: 260px;
+}
+
+.nav-link{
+  position: absolute;
+  top: 30px;
+}
