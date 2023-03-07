@@ -30,7 +30,7 @@ function Navbar() {
   };
 
   return (
-    <div className="fixed top-0 bg-main-white w-full shadow-md z-[60]">
+    <div className="fixed top-0 bg-main-white w-full z-[60]">
       {/*  Nav Overlay */}
         <div
           className={`nav-transition fixed w-full h-screen bg-main-black flex items-center justify-center left-0 overflow-hidden ${

@@ -1,27 +1,23 @@
-import Navbar from "../src/assets/components/Navbar";
-import AllProjects from "./assets/components/AllProjects";
-import Certificates from "./assets/components/Certificates";
-import Education from "./assets/components/Education";
-import Experience from "./assets/components/Experience";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./assets/components/Footer";
-import Header from "./assets/components/Header";
+
+import Home from "./assets/components/Home";
+import Navbar from "./assets/components/Navbar";
+import ProjectDetails from "./assets/components/ProjectDetails";
 import Projects from "./assets/components/Projects";
 import Skills from "./assets/components/Skills";
 
 function App() {
   return (
     <div className="relative">
-      
-      <Navbar />
-      <Header />
-      <Projects />
-      <Experience />
-      <div className="grid lg:grid-cols-2 overflow-x-hidden">
-        <Education />
-        <Certificates />
-      </div>
-      <Skills />
-      <Footer />
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects/:id" element={<ProjectDetails />}></Route>
+        </Routes>
+        <Footer />
+      </Router>
     </div>
   );
 }
