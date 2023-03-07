@@ -27,7 +27,7 @@ function Header() {
       </h2>
       <a
         className="py-3 px-10 rounded-full border border-main-black "
-        href="/src/assets/documents/RicardoGonzalezFloresCV.pdf"
+        href="/src/assets/documents/CV_Ricardo_González_Flores.pdf"
       >
         Descargar mi CV
       </a>

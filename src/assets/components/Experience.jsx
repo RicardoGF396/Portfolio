@@ -26,7 +26,7 @@ function Experience() {
         <p className="mt-6 text-justify lg:w-[900px]">
           Líder de proyecto tanto en el desarrollo como diseño de más de 15
           sitios web que tenían como objetivo ser Landing Pages y Web Apps. Me
-          dedique a la capacitaciones de clientes, creación de manuales y a la
+          dedique a capactiar clientes, creación de manuales y a la
           solución de problemas a páginas web ya existentes.
         </p>
         <div className="my-8 w-full h-[1px] bg-ligth-black "></div>
@@ -41,7 +41,7 @@ function Experience() {
           Líder de proyecto en una Web App personalizada, para el consultorio de
           un grupo de doctores. El objetivo fue crear un CRM utilizando HTML,
           CSS, PHP, Javascript, Boostrap y consumiendo varios servicios de
-          API's,
+          API's.
         </p>
         <div className="my-8 w-full h-[0.5px] bg-ligth-black "></div>
       </div>
