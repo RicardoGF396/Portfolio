@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ProjectJSON from "../documents/projects.js";
 import { useParams } from "react-router-dom";
 
 function ProjectDetails() {
   const { id } = useParams();
+
+  useEffect(() => {
+    window.scrollTo(0,0)
+  },[])
 
   // Buscar el proyecto correspondiente al ID en tu fuente de datos
   const {

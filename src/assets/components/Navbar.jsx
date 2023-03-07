@@ -3,6 +3,7 @@ import Menu from "../images/menu.svg";
 import Close from "../images/close.svg";
 import Call from "../images/call.svg";
 import gsap from "gsap";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [navOpen, setNavOpen] = useState(false);
@@ -82,7 +83,9 @@ function Navbar() {
 
       <div className="flex justify-between px-5 py-5 items-center">
         <div className="logo">
+          <Link to={'/'}>
           <h5 className="font-bold text-xl">Ricardo González Flores</h5>
+          </Link>
         </div>
         <div>
           <img
