@@ -30,7 +30,7 @@ function Navbar() {
   };
 
   return (
-    <div>
+    <div className="fixed top-0 bg-main-white w-full shadow-md z-[60]">
       {/*  Nav Overlay */}
         <div
           className={`nav-transition fixed w-full h-screen bg-main-black flex items-center justify-center left-0 overflow-hidden ${
@@ -39,22 +39,22 @@ function Navbar() {
         >
           <ul className="flex flex-col gap-y-6">
             <li className="nav-item font-light text-6xl text-main-white">
-              <a className="nav-link" href="#">
+              <a onClick={() => animationNavClose()} className="nav-link" href="#header">
                 Inicio
               </a>
             </li>
             <li className="nav-item font-light text-6xl text-main-white">
-              <a className="nav-link" href="#">
+              <a onClick={() => animationNavClose()} className="nav-link" href="#proyectos">
                 Projectos
               </a>
             </li>
             <li className="nav-item font-light text-6xl text-main-white">
-              <a className="nav-link" href="#">
+              <a onClick={() => animationNavClose()} className="nav-link" href="#sobre-mi">
                 Sobre Mí
               </a>
             </li>
             <li className="nav-item font-light text-6xl text-main-white">
-              <a className="nav-link" href="#">
+              <a onClick={() => animationNavClose()} className="nav-link" href="#footer">
                 Contacto
               </a>
             </li>

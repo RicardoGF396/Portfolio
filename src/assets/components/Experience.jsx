@@ -9,9 +9,9 @@ function Experience() {
       <div className="h-3 bg-main-black w-full mt-1"></div>
 
       <div className="mt-8">
-            <h4 className="font-medium text-3xl">Desarrollador Web</h4>
-            <p className="font-medium text-xl">YoContigo IT</p>
-          <p className="text-sm mt-2">Feb. 2022 - Actual</p>
+        <h4 className="font-medium text-3xl">Desarrollador Web</h4>
+        <p className="font-medium text-xl">YoContigo IT</p>
+        <p className="text-sm mt-2">Feb. 2022 - Mar. 2023</p>
         <p className="mt-4">Actividades destacadas</p>
         <div className=" w-[180px] h-[1px] bg-main-black"></div>
 
@@ -25,7 +25,9 @@ function Experience() {
         <div className="my-8 w-full h-[0.5px] bg-ligth-black "></div>
         <p className="mt-6 text-justify lg:w-[900px]">
           Líder de proyecto tanto en el desarrollo como diseño de más de 15
-          sitios web que tenían como objetivo ser Landing Pages.
+          sitios web que tenían como objetivo ser Landing Pages y Web Apps. Me
+          dedique a la capacitaciones de clientes, creación de manuales y a la
+          solución de problemas a páginas web ya existentes.
         </p>
         <div className="my-8 w-full h-[1px] bg-ligth-black "></div>
         <p className="mt-6 text-justify lg:w-[900px]">

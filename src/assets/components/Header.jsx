@@ -2,7 +2,7 @@ import Arrow from "../images/arrow-down.svg";
 
 function Header() {
   return (
-    <div className="px-5 lg:px-16">
+    <div id="header" className="mt-36 px-5 lg:px-16">
       <h1 className="font-semibold text-8xl mt-10 mb-4 text-main-black lg:text-9xl">
         Soy Ricardo
       </h1>
@@ -21,7 +21,7 @@ function Header() {
         <img src={Arrow} className="w-10 lg:w-14" />
       </div>
 
-      <h2 className="w-[300px] text-3xl mt-12 mb-6 lg:w-[900px] lg:text-5xl ">
+      <h2 id="sobre-mi" className="w-[300px] text-3xl mt-12 mb-6 lg:w-[900px] lg:text-5xl ">
         Constantemente estoy capacitándome con cursos y proyectos que realizo
         por mi cuenta
       </h2>

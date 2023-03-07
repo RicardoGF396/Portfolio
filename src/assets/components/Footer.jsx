@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='px-5 mt-24 lg:px-16'>
+    <div id='footer' className='px-5 mt-24 lg:px-16'>
         <h1 className='font-bold text-main-black text-6xl lg:text-9xl'>¡Vamos a hablar!</h1>
         <p className='text-xl my-6 lg:text-4xl'>Si te interesa mi perfil, no dudes en contactarte conmigo.</p>
 
