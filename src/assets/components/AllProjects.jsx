@@ -32,65 +32,65 @@ function AllProjects({setIsOpenProjects}) {
 
       <div className="relative px-4 py-8 grid grid-cols-1 gap-y-4 gap-x-4 sm:grid-cols-2 lg:grid-cols-3 lg:px-40 lg:grid-">
         <div className="flex flex-col gap-4">
-        <a href="https://ricardogf396.github.io/-Base-Apparel-coming-soon-page/">
+        <a target={"_blank"} href="https://ricardogf396.github.io/-Base-Apparel-coming-soon-page/">
           <img className="rounded-xl object-cover" src={fm01} />
         </a>
-        <a href="https://ricardogf396.github.io/Four-Card-Feature-Frontend-Mentor/">
+        <a target={"_blank"} href="https://ricardogf396.github.io/Four-Card-Feature-Frontend-Mentor/">
           <img className="rounded-xl object-cover" src={fm02} />
         </a>
-        <a href="https://ricardogf396.github.io/QR-Code-component-Fronend-Mentor/">
+        <a target={"_blank"} href="https://ricardogf396.github.io/QR-Code-component-Fronend-Mentor/">
           <img className="rounded-xl object-cover" src={fm03} />
         </a>
-        <a href="https://ricardogf396.github.io/NFT-Card/">
+        <a target={"_blank"} href="https://ricardogf396.github.io/NFT-Card/">
           <img className="rounded-xl object-cover" src={fm04} />
         </a>
-        <a href="https://ricardogf396.github.io/Interactive-Rating-Component/">
+        <a target={"_blank"} href="https://ricardogf396.github.io/Interactive-Rating-Component/">
           <img className="rounded-xl object-cover" src={fm05} />
         </a>
         
         </div>
 
         <div className="flex flex-col gap-4">
-        <a href="https://ricardogf396.github.io/FAQ-Accordion/">
+        <a target={"_blank"} href="https://ricardogf396.github.io/FAQ-Accordion/">
           <img className="rounded-xl object-cover" src={fm07} />
         </a>
-        <a href="https://ricardogf396.github.io/Social-Proof-Section/">
+        <a target={"_blank"} href="https://ricardogf396.github.io/Social-Proof-Section/">
           <img className="rounded-xl object-cover" src={fm08} />
         </a>
-        <a href="https://ricardogf396.github.io/Tip-Calculator-App-Solution/">
+        <a target={"_blank"} href="https://ricardogf396.github.io/Tip-Calculator-App-Solution/">
           <img className="rounded-xl object-cover" src={fm09} />
         </a>
-        <a href="https://ricardogf396.github.io/3-columns/">
+        <a target={"_blank"} href="https://ricardogf396.github.io/3-columns/">
           <img className="rounded-xl object-cover" src={fm10} />
         </a>
-        <a href="https://ricardogf396.github.io/Card-Responsive/">
+        <a target={"_blank"} href="https://ricardogf396.github.io/Card-Responsive/">
           <img className="rounded-xl object-cover" src={fm11} />
         </a>
-        <a href="http://yocontigo-it.com.mx/canadianschool/">
+        <a target={"_blank"} href="http://yocontigo-it.com.mx/canadianschool/">
           <img className="rounded-xl object-cover" src={canadian} />
         </a>
-        <a href="https://ricardogf396.github.io/Article-Preview/">
+        <a target={"_blank"} href="https://ricardogf396.github.io/Article-Preview/">
           <img className="rounded-xl object-cover" src={fm06} />
         </a>
         </div>
 
         <div className="flex flex-col gap-4">
-        <a href="https://yocontigo-it.com.mx/coffeemasmas/">
+        <a target={"_blank"} href="https://yocontigo-it.com.mx/coffeemasmas/">
           <img className="rounded-xl object-cover" src={coffemasmas} />
         </a>
-        <a href="https://seguclean.com/">
+        <a target={"_blank"} href="https://seguclean.com/">
           <img className="rounded-xl object-cover" src={seguclean} />
         </a>
-        <a href="https://telvet.com.mx/">
+        <a target={"_blank"} href="https://telvet.com.mx/">
           <img className="rounded-xl object-cover" src={telvet} />
         </a>
-        <a href="https://mymoviesrgf.netlify.app/">
+        <a target={"_blank"} href="https://mymoviesrgf.netlify.app/">
           <img className="rounded-xl object-cover" src={mymovies} />
         </a>
-        <a href="https://frontend-rgf.netlify.app/">
+        <a target={"_blank"} href="https://frontend-rgf.netlify.app/">
           <img className="rounded-xl object-cover" src={reactChallenge} />
         </a>
-        <a href="https://github.com/RicardoGF396/Georeferenciados_PrimerParcial">
+        <a target={"_blank"} href="https://github.com/RicardoGF396/Georeferenciados_PrimerParcial">
           <img className="rounded-xl object-cover" src={realPlace} />
         </a>
         </div>

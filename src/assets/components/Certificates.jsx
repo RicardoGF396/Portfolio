@@ -7,7 +7,7 @@ function Certificates() {
       <h3 className="font-semibold text-main-black text-2xl">
         Certificaciones
       </h3>
-      <a className="underline text-right" href="https://www.linkedin.com/in/ricardogf396/">Ver todas mis certificaciones</a>
+      <a className="underline text-right" target={"_blank"} href="https://www.linkedin.com/in/ricardogf396/">Ver todas mis certificaciones</a>
       </div>
       <div className="h-1 bg-main-black w-full mt-1"></div>
       <div className="h-2 bg-main-black w-full mt-1"></div>

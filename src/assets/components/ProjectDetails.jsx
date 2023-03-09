@@ -6,8 +6,8 @@ function ProjectDetails() {
   const { id } = useParams();
 
   useEffect(() => {
-    window.scrollTo(0,0)
-  },[])
+    window.scrollTo(0, 0);
+  }, []);
 
   // Buscar el proyecto correspondiente al ID en tu fuente de datos
   const {
@@ -34,6 +34,7 @@ function ProjectDetails() {
           </h1>
         </div>
         <a
+          target={"_blank"}
           href={site}
           className="px-10 py-3 bg-main-black rounded-full text-main-white"
         >
@@ -59,6 +60,7 @@ function ProjectDetails() {
           <h3 className="text-[#999999] font-medium text-2xl ">Descripción</h3>
           <p className="mb-8"> {description} </p>
           <a
+            target={"_blank"}
             href={repository}
             className="px-10 py-3 text-main-black border border-main-black rounded-full"
           >
@@ -70,7 +72,7 @@ function ProjectDetails() {
       {/* Images */}
       <div className="mt-12">
         <div className="lg:flex lg:justify-center">
-        <img className="rounded-xl lg:w-[95%]" src={images[0]} alt="img" />
+          <img className="rounded-xl lg:w-[95%]" src={images[0]} alt="img" />
         </div>
         <div className="mt-8 lg:flex lg:justify-between">
           <div className="lg:w-[50%]">
